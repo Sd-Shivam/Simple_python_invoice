@@ -50,6 +50,6 @@ IE 11  | Firefox 36 | Chrome 41 | Safari 8
 
 Pull requests are welcome!
 
-In a separate tab run the code to see you change. Open `pdf_invoice.html`
+In a separate tab run the code to see you change. Open `print_invoice.html`
 in a browser to see your invoice .
 
