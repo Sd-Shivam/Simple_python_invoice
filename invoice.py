@@ -127,6 +127,7 @@ def html(data):
     f.close()
     body.close()
     footer.close()
+    os.system('start print_invoice.html')
 
 def record(id,name,mobile,address,mode,products,total):
   record_file=open("log\\invoice_record.txt",'a')
