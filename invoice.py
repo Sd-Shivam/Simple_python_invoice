@@ -1,11 +1,11 @@
-import os
+
 from datetime import date
 from datetime import datetime
 today = date.today()
 date=today.strftime("%b-%d-%Y")
 now = datetime.now()
 time = now.strftime("%H:%M:%S")
-os.system('cls')
+
 
 logo='''
 ██████╗ ██╗  ██╗ █████╗ ██████╗  █████╗ ████████╗███╗   ███╗ ██████╗ ██████╗ ██╗██╗     ███████╗███████╗
@@ -131,7 +131,7 @@ def html(data):
 
 def record(id,name,mobile,address,mode,products,total):
   record_file=open("log\\invoice_record.txt",'a')
-  record=str("[ #"+str(id)+","+str(name)+","+str(mobile)+","+str(address)+","+str(mode)+","+str(products)+", Total Paid="+str(total)+']')
+  record=str("[ #"+str(id)+","+str(date)+","+str(time)+","+str(name)+","+str(mobile)+","+str(address)+","+str(mode)+","+str(products)+", Total Paid="+str(total)+']')
   record_file.write(record)
   record_file.close()
 
