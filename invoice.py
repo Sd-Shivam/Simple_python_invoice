@@ -1,11 +1,11 @@
-
+import os
 from datetime import date
 from datetime import datetime
 today = date.today()
 date=today.strftime("%b-%d-%Y")
 now = datetime.now()
 time = now.strftime("%H:%M:%S")
-
+os.system('cls')
 
 logo='''
 ██████╗ ██╗  ██╗ █████╗ ██████╗  █████╗ ████████╗███╗   ███╗ ██████╗ ██████╗ ██╗██╗     ███████╗███████╗
