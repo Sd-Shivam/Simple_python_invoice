@@ -1,7 +1,6 @@
 <h1 align="center">Simple_python_invoice_Builder</h1>
---
 
-### What is this?
+### About this project
 
 A collection of loading animations written entirely in css.
 Each animation is limited to a small subset of css properties in order
