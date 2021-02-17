@@ -8,8 +8,6 @@ to avoid expensive painting and layout calculations.
 Animations will help you to save time when creating your webpages! 
 These responsive layouts are pure css and easy to customize including colors.
 
-I've posted links below to some fantastic articles that go into this
-in a lot more detail.
 
 ### Install
 
@@ -36,7 +34,8 @@ like :-
 1) Logo
 2) Invoice template
 now ENJOY
-
+Note--> It is on my basic template of BharatMobiles Shop Invoice generator
+        You can modify invoice.py file as your customization need.
 
 ### Browser support
 
@@ -49,6 +48,6 @@ IE 11  | Firefox 36 | Chrome 41 | Safari 8
 
 Pull requests are welcome!
 
-In a separate tab run the code to see you change. Open `print_invoice.html`
+In a separate tab run the code to see you change. Open `last_invoice.html`
 in a browser to see your invoice .
 
